@@ -33,7 +33,7 @@ public:///公有方法
 		void ButtonTwoEvent();
 
 public:///公有成员
-	UPROPERTY(Meta = (BindWidget))
+	UPROPERTY( meta = (BindWidget))
 		UButton* ButtonOne;//获取UMG内部控件方法三:反射绑定
 
 private:
