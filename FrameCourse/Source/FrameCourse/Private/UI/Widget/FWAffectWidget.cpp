@@ -43,6 +43,7 @@ bool UFWAffectWidget::Initialize()
 	ButtonTwo->OnReleased.Add(_ButTwoDelegate);
 	//绑定按钮事件方法三：在蓝图里直接进行节点链接
 
+
 	return true;
 }
 
